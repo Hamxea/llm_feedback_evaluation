@@ -1,0 +1,45 @@
+2024-07-04 13:57:54.909900,,LTF,"No, I have no expertise.",Llama-2 13B,0,1,Is high intensity interval training only for healthy individuals?,A is better,,3,base,finetuned,INSERTED
+2024-07-04 13:57:54.911518,,LTF,"No, I have no expertise.",Llama-2 13B,0,2,What is fitness age and is it relevant for me?,B is better,,3,finetuned,base,INSERTED
+2024-07-04 13:57:54.912164,,LTF,"No, I have no expertise.",Llama-2 13B,0,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,2,base,finetuned,INSERTED
+2024-07-04 14:04:18.990476,,2ZE,"No, I have no expertise.",Llama-2 13B,0,1,Is high intensity interval training only for healthy individuals?,B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:04:18.991050,,2ZE,"No, I have no expertise.",Llama-2 13B,0,2,What is fitness age and is it relevant for me?,B is better,,3,finetuned,base,INSERTED
+2024-07-04 14:04:18.991785,,2ZE,"No, I have no expertise.",Llama-2 13B,0,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,4,base,finetuned,INSERTED
+2024-07-04 14:05:44.542269,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,1,Is high intensity interval training only for healthy individuals?,A is better,,3,finetuned,base,INSERTED
+2024-07-04 14:05:44.544329,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,2,What is fitness age and is it relevant for me?,A is better,,3,finetuned,base,INSERTED
+2024-07-04 14:05:44.546405,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:06:04.568235,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,1,Is high intensity interval training only for healthy individuals?,A is better,,3,finetuned,base,UPDATED
+2024-07-04 14:06:04.569318,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,2,What is fitness age and is it relevant for me?,A is better,,3,finetuned,base,UPDATED
+2024-07-04 14:06:04.570287,,LTF,"No, I have no expertise.",Mixtral 8*7B,1,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,3,finetuned,base,UPDATED
+2024-07-04 14:12:16.863703,,LTF,"No, I have no expertise.",LLama-3 8B,2,1,Is high intensity interval training only for healthy individuals?,A is better,,4,base,finetuned,INSERTED
+2024-07-04 14:12:16.865253,,LTF,"No, I have no expertise.",LLama-3 8B,2,2,What is fitness age and is it relevant for me?,A is better,,2,base,finetuned,INSERTED
+2024-07-04 14:12:16.867393,,LTF,"No, I have no expertise.",LLama-3 8B,2,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,2,base,finetuned,INSERTED
+2024-07-04 14:20:16.029166,,2ZE,"No, I have no expertise.",Mixtral 8*7B,1,1,Is high intensity interval training only for healthy individuals?,B is better,,3,finetuned,base,INSERTED
+2024-07-04 14:20:16.029666,,2ZE,"No, I have no expertise.",Mixtral 8*7B,1,2,What is fitness age and is it relevant for me?,B is better,,3,base,finetuned,INSERTED
+2024-07-04 14:20:16.030251,,2ZE,"No, I have no expertise.",Mixtral 8*7B,1,3,"What is cardiorespiratory fitness, and why does that matter for me?",A is better,,4,finetuned,base,INSERTED
+2024-07-04 14:20:18.512250,,LTF,"No, I have no expertise.",Mistral 7B v2,3,1,Is high intensity interval training only for healthy individuals?,B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:20:18.513320,,LTF,"No, I have no expertise.",Mistral 7B v2,3,2,What is fitness age and is it relevant for me?,B is better,,3,base,finetuned,INSERTED
+2024-07-04 14:20:18.513890,,LTF,"No, I have no expertise.",Mistral 7B v2,3,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,3,base,finetuned,INSERTED
+2024-07-04 14:24:45.074493,,27D,"No, I have no expertise.",Llama-2 13B,0,1,Is high intensity interval training only for healthy individuals?,A is better,,4,base,finetuned,INSERTED
+2024-07-04 14:24:45.075950,,27D,"No, I have no expertise.",Llama-2 13B,0,2,What is fitness age and is it relevant for me?,B is better,,3,finetuned,base,INSERTED
+2024-07-04 14:24:45.076913,,27D,"No, I have no expertise.",Llama-2 13B,0,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,4,base,finetuned,INSERTED
+2024-07-04 14:25:39.490099,,LTF,"No, I have no expertise.",StableBeluga 7B,4,1,Is high intensity interval training only for healthy individuals?,A is better,,3,base,finetuned,INSERTED
+2024-07-04 14:25:39.494348,,LTF,"No, I have no expertise.",StableBeluga 7B,4,2,What is fitness age and is it relevant for me?,A is better,,3,finetuned,base,INSERTED
+2024-07-04 14:25:39.495123,,LTF,"No, I have no expertise.",StableBeluga 7B,4,3,"What is cardiorespiratory fitness, and why does that matter for me?",A is better,,4,base,finetuned,INSERTED
+2024-07-04 14:26:16.103558,,27D,"No, I have no expertise.",Mixtral 8*7B,1,1,Is high intensity interval training only for healthy individuals?,A is better,,3,base,finetuned,INSERTED
+2024-07-04 14:26:16.107054,,27D,"No, I have no expertise.",Mixtral 8*7B,1,2,What is fitness age and is it relevant for me?,B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:26:16.107968,,27D,"No, I have no expertise.",Mixtral 8*7B,1,3,"What is cardiorespiratory fitness, and why does that matter for me?",A is better,,4,finetuned,base,INSERTED
+2024-07-04 14:27:09.967163,,27D,"No, I have no expertise.",LLama-3 8B,2,1,Is high intensity interval training only for healthy individuals?,A is better,,4,base,finetuned,INSERTED
+2024-07-04 14:27:09.968658,,27D,"No, I have no expertise.",LLama-3 8B,2,2,What is fitness age and is it relevant for me?,B is better,,2,finetuned,base,INSERTED
+2024-07-04 14:27:09.969651,,27D,"No, I have no expertise.",LLama-3 8B,2,3,"What is cardiorespiratory fitness, and why does that matter for me?",A is better,,3,finetuned,base,INSERTED
+2024-07-04 14:27:45.762006,,27D,"No, I have no expertise.",Mistral 7B v2,3,1,Is high intensity interval training only for healthy individuals?,A is better,,4,base,finetuned,INSERTED
+2024-07-04 14:27:45.763504,,27D,"No, I have no expertise.",Mistral 7B v2,3,2,What is fitness age and is it relevant for me?,B is better,,5,finetuned,base,INSERTED
+2024-07-04 14:27:45.763703,,27D,"No, I have no expertise.",Mistral 7B v2,3,3,"What is cardiorespiratory fitness, and why does that matter for me?",A is better,,4,finetuned,base,INSERTED
+2024-07-04 14:28:24.126768,,2ZE,"No, I have no expertise.",LLama-3 8B,2,1,Is high intensity interval training only for healthy individuals?,B is better,,5,finetuned,base,INSERTED
+2024-07-04 14:28:24.129659,,2ZE,"No, I have no expertise.",LLama-3 8B,2,2,What is fitness age and is it relevant for me?,B is better,,3,finetuned,base,INSERTED
+2024-07-04 14:28:24.132312,,2ZE,"No, I have no expertise.",LLama-3 8B,2,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:37:36.214553,,2ZE,"No, I have no expertise.",Mistral 7B v2,3,1,Is high intensity interval training only for healthy individuals?,B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:37:36.215990,,2ZE,"No, I have no expertise.",Mistral 7B v2,3,2,What is fitness age and is it relevant for me?,B is better,,3,base,finetuned,INSERTED
+2024-07-04 14:37:36.216797,,2ZE,"No, I have no expertise.",Mistral 7B v2,3,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,4,finetuned,base,INSERTED
+2024-07-04 14:39:38.340272,,2ZE,"No, I have no expertise.",StableBeluga 7B,4,1,Is high intensity interval training only for healthy individuals?,A is better,,5,finetuned,base,INSERTED
+2024-07-04 14:39:38.344947,,2ZE,"No, I have no expertise.",StableBeluga 7B,4,2,What is fitness age and is it relevant for me?,B is better,,5,base,finetuned,INSERTED
+2024-07-04 14:39:38.345771,,2ZE,"No, I have no expertise.",StableBeluga 7B,4,3,"What is cardiorespiratory fitness, and why does that matter for me?",B is better,,5,base,finetuned,INSERTED
