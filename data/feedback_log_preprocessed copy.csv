@@ -1,0 +1,255 @@
+code,expert,model_name,prompt_detail,feedback,satisfaction,better_response_choise
+ITE,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"Svar B er ikke veldig bra... For example, individuals with mobility limitations or joint pain can perform HIIT exercises from a seated position or use resistance bands instead of weights (bruk av resistance bands vs vekter er bare tull for man bruker ikke vekter i det hele tatt for HIIT) Additionally, HIIT workouts can be tailored to specific health goals, such as improving cardiovascular health, increasing muscle strength (det øker ikke styrkekapasitet) and endurance, or managing weight loss. I svar A bør også strengt benefits ut...",4,finetuned
+ITE,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,"B is better for den er mer konkret – men ikke perfekt… men det skal vi jo ikke vurdere
+
+",4,finetuned
+ITE,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",B kanskje noe bedre for hvorfor det er viktig – begge er for dårlige på hvordan øke cardiorespiratory fitness mest mulig effektivt – som vel ikke er en del av spørsmålet...og burde kanskje ikke være en del av svaret heller...?,4,finetuned
+ITE,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,5,finetuned
+ITE,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,B er klart best men det med muscle strenght osv er kanskje noe upresist... men ok,4,finetuned
+ITE,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",A best fordi det forklarer om maksimalt oksygenopptak...,4,base
+ITE,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,3,base
+ITE,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,Both A and B are very innacurate... ,1,base
+ITE,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",both ok but not perfect...,4,finetuned
+ITE,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,Both responses are really bad and equally bad... ,1,finetuned
+ITE,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,None of the responses so far have grasped the correct way of how we determine fitness age - A is here better but not perfect...,3,finetuned
+ITE,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ITE,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,Both responses are equally bad - not good at all,1,base
+ITE,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,Both are extremely bad... equally,1,finetuned
+ITE,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",none of them are good - A slightly better,2,finetuned
+ZRG,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"A is the better option. But to much focus on HIIT improving strength i would say... Does it improve stength at all... ? Also, highlight that HIIT is a effective strategy for improving physical fitness effectively (not strength), especially for low fit individuals in a short time. Also mention that (at least in the short term), HIIT is a more effective strategy to improve fitness than moderate and low intensity training, shown in many studies, for different ages and people (with different conditions; diabetes, heart diseases, etc)",3,base
+ZRG,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,"Not perfect. Highlight that fitness level and fitness age can be easily and accurately estimated on CERG's website. 
+Also, remove the focus on muscle strength and flexibility form FITNESS age... most important here is cardiovascular fitness, and the best measure of that is either a maximal oxygen consumption test (gold standard), or easily and accurately estimated on CERGs webpage. 
+",4,finetuned
+ZRG,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",B is most spesific. Highligth more what you can do to improve fitness? Less focus on 150 min ++ and highlight that HIIT is the most effective strategy in short term. Link to CERGs 7 week training program...?,4,finetuned
+ZRG,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"Is it necessary to mention ""Consulting a healthcare provider or a qualified fitness professional is essential before starting any new exercise regimen, including HIIT. Says something similar in both answers… B is most accurate. But HIIT is safe for the vast majority of people... Now that seems a bit scary, I think. No need to mention that you need a consultant, etc – HIIT can easily be adjusted to any individual at any condition and fitness level, don’t make it seem hard to perform HIIT as this answer does… ",2,finetuned
+ZRG,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,2,finetuned
+ZRG,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?","A is better. No certainty that 75 minutes of activity means increased fitness... maybe for person A, but not person B... Therefore A is best. If first mentioning physical activity recommendations it needs to be more specific, and recommendations is not part of the question here...  ? So drop that, and ",2,base
+ZRG,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,"Alternative A is good, but some suggestions: be more specific, promote HIIT to be a effective strategy, and a safe strategy for good health .  Alternative B is way off... ",4,base
+ZRG,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,"Neither of the alternatives if possible... A: Fitness age for a normally  healthy person shout not be assessed by a chair stand test - maybe for the oldest individuals - but not the ""normal"" person. ",2,finetuned
+ZRG,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?","No need to mention ""Consult with a healthcare professional"" in many of the answers... Much more clear if there is a link to a specific program that can be suggested - that if effective for everyone - without having to contact someone for guidance...  CERG's 7-week program has been shown to work and be effective... there are several good ones that can be recommended as well. I think that being told to seek ""help"" is a hindrance to getting started with training for many. ",2,finetuned
+ZRG,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,"Alternative A is way off, and not good. HIIT is a effective and suitable for most people... Agree that HIIT might not be the answer for all people, but do think that it should be incorporated in most exercise programs. B slightly better... 
+ I think that the answers given here prevent people from getting started with exercise, and that is not what we want... give a positive answer about HIIT, that it is safe, effective, and absolutely not only for healthy individuals. ",2,base
+ZRG,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,"The calculation or interpretation for B most be wrong... If you are 35 and have a fitness age of 91, that certainly does not mean that you are healthy...  ",2,finetuned
+ZRG,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+ZRG,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,2,base
+ZRG,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,"Something wrong here?... 35 year, fitness age of 91 - but interpreted as healthy...? B, link to CERG, or to the formula... ",2,finetuned
+ZRG,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",All models mentions flexibility that's not something i often associate with CRF... More clear and concise answers. ,2,base
+TKK,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"A is better, goes straight to answering the question. I also like this from part B (very clear):  ""Furthermore, HIIT has been shown to have numerous health benefits for both healthy individuals and those with chronic diseases.""",4,finetuned
+TKK,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,"Satisfied/neutral. Could be even more clear. It could be a bit more focused on how your fitness age is descriptive of your present and future health, and your risk of disease ",4,finetuned
+TKK,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?","I like the listing of why CRF matters, but the content could be even more precise/more elaborate. List could be longer. Add benefits for brain health (cognitive and mental health) etc. Could also improve the last section in B. I don´t like that 2 of the sections in A start with questions.",4,finetuned
+WUG,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"A is better, but, essentially, HIIT does not involve use of weights or resistance bands. It does not substantially improve muscle strength either.",3,base
+WUG,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,,4,finetuned
+WUG,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?","Overall, I prefer the A option. Still, it could be improved. The way the reasons to improve CRF are written in B (easy to understand and link to everyday life benefits) is nice. The last paragraph in option B about ways to improve CRF aims at giving more detailed guidance than that in A, but fails at taking into account individual differences (e.g., 150 minutes of moderate intensity or 75 minutes of high intensity exercise could be enough to improve CRF in previously sedentary person but not in a highly active person). While the prompt does not ask about this, the simple summary in A seems better.",4,base
+WUG,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,4,finetuned
+WUG,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,4,base
+WUG,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+TKK,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"I like B better, but I think it is a bit harsh use of the words ""crucial"" and ""essential"", sounds exaggerated. Also a bit much that you need to consult a healthcare provider or qualified personnel (essential) before starting a new regimen.. who is that for. Same goes for ""it is vital to prioritize safety""",4,finetuned
+TKK,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,"I also liked B, bot A stays more to the point while B also describes other things (yet they are relevant, and also important....) in the last two sections. Also in the 2nd section, it kind of downplays the importance in a way. The estimate will be accurate enough for most people (the CERG one)",4,finetuned
+TKK,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",A is very good on answering the question,4,base
+WUG,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,4,base
+WUG,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,"A is much better. B is poor. However, in the option A, it is not taken into account that fitness age could be measured in different ways, not only by performing the specific tests mentioned.",4,base
+WUG,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",Option A provides a better overview but would benefit from abbreviating cardiorespiratory fitness as the commonly used CRF instead of CR fitness.,3,base
+TKK,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,A very good at answering what is asked. Could be even clearer in describing the health benefits of improving CRF - for both healthy and non-healthy. Don´t like B ,4,base
+TKK,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,Do not like any of these,1,finetuned
+TKK,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?","B is a bit better, but still a bit vague and unclear (after the first section)",3,base
+TKK,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,Both are terrible.,1,finetuned
+TKK,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,Both are terrible :),1,finetuned
+TKK,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",A to the point on what is CRF and why it matters for me. Could be a bit more elaborate and clear,4,base
+WUG,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,"Neither of the options is good. The option A is better constructed, but makes HIIT sound unnecessarily demanding and dangerous, thus making option B a slightly better response. ",2,base
+WUG,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,The calculation and interpretation of it are way off in the option A. ,2,finetuned
+WUG,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?","A is better, but needs to state that CRF matters to everyone independent of age. It also goes too general about the required physical activity to improve CRF. While 'regular aerobic exercise, such as brisk walking, running, cycling, swimming, or dancing, performed at a moderate intensity for at least 150 minutes per week (or 75 minutes per week of vigorous-intensity activity)' can be well enough for some people, it is not true for everyone.",2,finetuned
+WUG,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,2,base
+WUG,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,,1,finetuned
+WUG,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,2,finetuned
+TKK,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,"Do not like any of them. Unclear, and wrong info",1,base
+TKK,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,Do not like any of them. ,1,finetuned
+TKK,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",Neither of these are good answers,2,finetuned
+6PF,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"It have to be more specific.. I want to know if HIIT is safe.. we are not using weights during HIIT.. However, HIIT can be modified to increase muscle strength for example.. Additionally, missing that HIIT have been shown in short-term studies to be more effective than moderate training.. which is crucial for people who is in a dire need of increasing their fitness (Low fit individuals). ",3,base
+6PF,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,"Like alternative B best because it is more concrete.. however,  the focus needs to be taken away from muscle strength..  When talking about HIIT.. I am thinking of improving cardiovascular health... Improving muscle strenght is not the point with high intensity interval training.. but HIIT can be modified to improve it..  Additionally, you do not need to perform a fitness test on the treadmill.. CERG has its own fitness calculator.. ",3,finetuned
+6PF,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",I like the listing of the reasons why cardiorespiratory fitness is important.. how to improve cardiorespiratory fitness best and in an effective way?.. Maybe the last sentence doesn't make sense beacuse of the question asked...,3,finetuned
+6PF,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"Would have focused less on seeing a GP to clarify the safety of HIIT - For healthy individuals with no underlying diseases, there is good evidence that HIIT is very safe exercise method.. and on the contrary I think if people are asked to clarify with the GP on safety of HIIT.. I believe it will increase the barriers..",4,finetuned
+6PF,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,I think A is the best here because it explains the fitness age concept and how people can use it.. Some room for improvements.. what about adding a link to CERGs own fitness calculator ?,4,finetuned
+6PF,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",Alternative B is best beacuse it jumps right into what CRF is and why it matters for people.. It could also be nice to have something about how you can improve CRF in an effective way.. possible that this doesn't fit in.. but would have been nice to have something about it.. ,3,base
+6PF,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,B is best.. but again.. with HIIT I think improvement of the cardiovascular system.. not strength training and upper body exercises...,3,base
+6PF,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,B is the best.. but both are at a low level.. You don't need a majority of tests to estimate this.. CERG has the fitness calculator ,2,base
+6PF,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",Not perfect.. but B is better than A,3,base
+6PF,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,Both answers have a lot to go on.,3,finetuned
+6PF,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,A is better - But want to see a link to a website where people can calculate their own fitness age... A lot about fitness age and fitness calculator on CERGs websites ,3,finetuned
+6PF,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",B is the best here.. explains in an easy way why CRF is important and how it affects the overall health ,4,finetuned
+6PF,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,A lot of evidence that HIIT is safe for people with diseases.. and thats why I answered B.. Both alternatives has their weaknesses.. ,2,base
+6PF,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,"
+Both options are bad",1,finetuned
+6PF,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",Alternative B is slightly better ,3,finetuned
+K7G,"Yes, I am an expert.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"I liked that response B described more about HIIT. However, it should have answered the question in the first sentence. In addition, remove the part ""with seated position or use resistance bands instead of weights"". Moreover, should had examples of diseases where HIIT are not suitable, as mentioned in Respone A. 
+",3,base
+K7G,"Yes, I am an expert.",Llama-2 13B,What is fitness age and is it relevant for me?,"Overall, both were bad, but B is slightly better. The definition should be rewritten, and what does flexibility has to do with fitness age? Response B does not answer if fitness age is relevant for me, which response A includes. Nice to see that response B writes how you can measure fitness age, and example of what fitness age are. Response A includes that fitness age is not a definitive measure of health and well-being, should be included in response B. ",2,finetuned
+K7G,"Yes, I am an expert.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?","Overall, response A is better. The answer is more structured and easier to read. However, it should have mentioned that HIIT are most effective for increasing cardiorespiratory fitness. ",4,finetuned
+7WV,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,,4,finetuned
+7WV,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,,3,finetuned
+7WV,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+7WV,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,3,finetuned
+7WV,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,3,finetuned
+7WV,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+7WV,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,4,base
+7WV,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,,4,base
+7WV,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+7WV,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,3,base
+7WV,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,,4,base
+7WV,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+7WV,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,2,base
+7WV,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,,4,base
+7WV,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+K7G,"Yes, I am an expert.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"Respone A is much better! It mentioned what HIIT are, but also the benefits. Why so much focus on safety of doing HIIT? “It is crucial, it is vital, is essential”. In addition, remove “caloric burn”.…. Respone B is to short and does not answer the question properly. ",3,finetuned
+K7G,"Yes, I am an expert.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,3,finetuned
+K7G,"Yes, I am an expert.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?","Respone B are better.  More precise and very good to see that “higher CRF level has been consistently linked to better health outcomes and a lower risk of chronic diseases, including heart disease, stroke, type 2 diabetes, and certain cancers”. In addition, good to see that CRF is just one aspect of overall health and wellness. 
+",4,base
+K7G,"Yes, I am an expert.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,"The response A by far. Overall good structure, information and well written. Response B is very bad.",4,base
+K7G,"Yes, I am an expert.",LLama-3 8B,What is fitness age and is it relevant for me?,"Response B is better. But why not mention that you can do a VO2max test for measuring your fitness age. Do we have data on 6-min walking test of every age group in terms of: What is good, what is bad result? What about younger people? A 6 min-walking test and chair stand test does is not a good measure.",3,base
+K7G,"Yes, I am an expert.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?","Response A - Again this is more precise and answers the question. Response B is messy, and very bad written. ",4,base
+K7G,"Yes, I am an expert.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,4,finetuned
+K7G,"Yes, I am an expert.",Mistral 7B v2,What is fitness age and is it relevant for me?,,4,finetuned
+K7G,"Yes, I am an expert.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+K7G,"Yes, I am an expert.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,4,base
+K7G,"Yes, I am an expert.",StableBeluga 7B,What is fitness age and is it relevant for me?,,3,finetuned
+K7G,"Yes, I am an expert.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+LTF,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,,3,base
+LTF,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,,3,base
+LTF,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",,2,finetuned
+2ZE,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,,4,base
+2ZE,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,,3,base
+2ZE,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+LTF,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,3,finetuned
+LTF,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,3,finetuned
+LTF,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",,3,base
+LTF,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,4,base
+LTF,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,,2,base
+LTF,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",,2,finetuned
+2ZE,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,3,base
+2ZE,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,3,finetuned
+2ZE,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+LTF,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,4,base
+LTF,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,,3,finetuned
+LTF,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,3,finetuned
+LTF,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,3,base
+LTF,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,,3,finetuned
+LTF,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+2ZE,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,5,base
+2ZE,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,,3,base
+2ZE,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+2ZE,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,4,base
+2ZE,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,,3,finetuned
+2ZE,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+2ZE,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,5,finetuned
+2ZE,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,,5,finetuned
+2ZE,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,5,finetuned
+KOG,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"Option was selected because: 
+- It gave concrete examples of activities 
+- It included a warning about potential risks and recommended to consult with a professional before starting the activity. ",4,finetuned
+KOG,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,"Option was selected because:
+- It gave a clear answer (yes).
+- It felt more concise.
+- It gave more concrete examples.",4,finetuned
+KOG,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?","Option was selected because:
+- It answered the question more directly.
+- Its structure was easier to follow. 
+
+Criticism of the selected option:
+- It claimed ""studies have shown ..."" and provided training instructions, both without providing a reference for the data.",3,finetuned
+KOG,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"Option was selected because:
+- It answered the question more directly
+- It was much more concise, omitting information that the question didn't ask for. ",4,base
+KOG,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,"Option was selected because:
+- It was much more concise.
+- It answered the question more directly.
+- It gave a more balanced perspective with pros and cons. ",4,base
+KOG,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?","Option was selected because:
+- It felt more concise.
+- It omitted less to-the-point examples (the other response listed types of activity, which the prompt had not asked for). 
+- It focused more on a long-term perspective.",4,base
+KOG,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,"Option was chosen because:
+- The other option was too short and had spelling mistakes. ",3,base
+KOG,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,"Option was chosen because:
+- It felt much more structured.
+- The other option was full of grammar and spelling errors. 
+
+Criticism of selected response:
+- It gave a one-sided perspective.",3,base
+KOG,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?","Option was chosen because:
+- It feels more complete.
+- It is more structured.
+
+Criticism of the selected response:
+- It is the only one so far that uses the abbreviation ""CR"" as opposed to ""CRF"" (I checked Wikipedia, ""CRF"" appears to be correct).",2,base
+KOG,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,"Option was chosen because:
+- It answered the question directly, without any unnecessary details. 
+- It stressed the importance of talking to a professional healthcare provider more than the other response. ",4,base
+KOG,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,"Option was chosen because:
+- It gives a clear answer to the question (the other response doesn't actually answer the question).
+- The other response provides a formula for calculating one's fitness age, but without any reference or possibility to verify its veracity. ",4,finetuned
+KOG,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?","Option was selected because:
+- It gives more reasons w.r.t. the prompt's question.
+
+Criticism of the selected response:
+- I was unable to verify the numbers (recommendation of the ACSM). I know that LLMs often make false statements, so I feel unsure about the answer. References definitely needed. ",4,finetuned
+KOG,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,"Option was chosen because:
+- Emphasized the risk of health conditions better
+
+Criticism of the selected response:
+- It felt a little too short. ",3,finetuned
+KOG,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,"Option was chosen because:
+- It tells the reader to seek out a professional.
+- The other option provides a formula without providing a reference. 
+
+Criticism of the selected and unselected options:
+- Both responses are one sided
+- Neither really answers the question. ",2,finetuned
+KOG,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?","Option was chosen because:
+- It suggests seeking out a professional
+
+Criticisms of both the selected and unselected response:",2,base
+E1B,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"Overall, Response (B) effectively educates readers about the versatility and benefits of HIIT, dispels myths about its exclusivity to healthy individuals, and provides actionable advice for adapting HIIT to different health conditions and fitness levels. These factors contribute to its effectiveness in conveying the message that HIIT can be a beneficial exercise option for a wide range of individuals.",4,base
+E1B,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,"In contrast, Response (B) focuses more narrowly on the definition and calculation of fitness age without providing as much context about its relevance or potential limitations. It lacks the depth of explanation regarding the broader implications of fitness age for health and well-being, which Response (A) effectively addresses. 
+Therefore, Response (A) is considered the better response for its comprehensive coverage, contextual relevance, nuanced perspective, tailored advice, and clarity of presentation.",4,base
+E1B,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?","Overall, Response that is selected stands out due to its clear structure, detailed explanation of benefits, actionable advice, and engaging approach, making it more effective in conveying the message.",4,finetuned
+E1B,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,"Both responses offer valuable perspectives on HIIT, but Response (A) might be slightly better for those prioritizing caution and individualized exercise recommendations. It clearly communicates that HIIT isn’t universally suitable and encourages consultation with healthcare professionals to tailor workouts for safety and effectiveness.",4,base
+E1B,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,"Response (A) may be more suitable for individuals seeking a practical understanding of how fitness age can directly impact their fitness journey. It provides clear benefits and applications of knowing one's fitness age, making it easier for readers to connect with the concept and apply it to their personal health goals.",4,finetuned
+E1B,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?","Given the comprehensive coverage and emphasis on measurement and health implications, Response (A) might be considered slightly better for providing a detailed understanding of CRF and its significance. However, both responses are informative and suitable depending on whether the emphasis is on measurement and health outcomes (Response A) or practical application and daily life benefits (Response B).",4,base
+E1B,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,Response (B) is recommended as it provides a broader perspective and practical examples of how HIIT can be tailored to meet the needs of individuals who are not considered healthy. ,4,base
+E1B,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,"Response (A) is recommended because it offers a broader and more balanced perspective on fitness age and cardiorespiratory fitness. It provides both theoretical insights and practical implications, making it more informative and relevant for someone seeking a comprehensive understanding of fitness age and its implications for health and longevity.",4,finetuned
+E1B,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?","Response (A) provides a general overview of CR fitness and its benefits, Response (B) goes into more detail about what CRF is, how it's measured (VO2max), specific health benefits associated with it, and empirical evidence supporting its role in longevity.",4,finetuned
+E1B,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,"Response (B) is the better choice as it provides a clearer and more detailed explanation of the factors individuals should consider before starting a HIIT program, ensuring safety and appropriateness based on personal health conditions",4,finetuned
+E1B,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,"Response (B) is the better response for providing a comprehensive understanding of fitness age, its relevance to health and fitness, and practical advice for individuals interested in assessing and improving their fitness levels.",4,finetuned
+E1B,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",Response (B) is the better response for addressing the topic of cardiorespiratory fitness (CRF) comprehensively and providing actionable information for improving overall health and well-being.,4,finetuned
+E1B,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,Response (B) is the better choice as it not only affirms the benefits of HIIT for both healthy individuals and those with health conditions but also emphasizes the critical step of consulting healthcare professionals or trainers for personalized guidance. This ensures safety and effective implementation of HIIT based on individual health considerations.,4,finetuned
+E1B,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,Response (A) is slightly more practical and direct in explaining how fitness age can be calculated and used by individuals themselves to gauge their health status and progress. ,4,base
+E1B,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?","Both responses effectively communicate the importance of CRF and provide practical advice for improving it through regular physical activity. Response (A), however, places slightly more emphasis on consulting with a medical professional or personal trainer before starting a new exercise regimen, which is crucial for ensuring safety and appropriateness based on individual health status.",4,base
+ASO,"Somewhat, I have some knowledge.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,"Both very good, and somewhat similar, so difficult to distinguish. ",4,base
+ASO,"Somewhat, I have some knowledge.",Llama-2 13B,What is fitness age and is it relevant for me?,"Both good, not that different. ",4,base
+ASO,"Somewhat, I have some knowledge.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",Both works for me,4,finetuned
+ASO,"Somewhat, I have some knowledge.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,4,finetuned
+ASO,"Somewhat, I have some knowledge.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,4,finetuned
+ASO,"Somewhat, I have some knowledge.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",Both good,4,finetuned
+ASO,"Somewhat, I have some knowledge.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,4,base
+ASO,"Somewhat, I have some knowledge.",LLama-3 8B,What is fitness age and is it relevant for me?,Previous models gave better answers,3,base
+ASO,"Somewhat, I have some knowledge.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,base
+ASO,"Somewhat, I have some knowledge.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,4,finetuned
+ASO,"Somewhat, I have some knowledge.",Mistral 7B v2,What is fitness age and is it relevant for me?,,4,finetuned
+ASO,"Somewhat, I have some knowledge.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ASO,"Somewhat, I have some knowledge.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,3,finetuned
+ASO,"Somewhat, I have some knowledge.",StableBeluga 7B,What is fitness age and is it relevant for me?,,3,base
+ASO,"Somewhat, I have some knowledge.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ADI,"No, I have no expertise.",Llama-2 13B,Is high intensity interval training only for healthy individuals?,,5,finetuned
+ADI,"No, I have no expertise.",Llama-2 13B,What is fitness age and is it relevant for me?,,5,finetuned
+ADI,"No, I have no expertise.",Llama-2 13B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ADI,"No, I have no expertise.",Mixtral 8*7B,Is high intensity interval training only for healthy individuals?,,4,finetuned
+ADI,"No, I have no expertise.",Mixtral 8*7B,What is fitness age and is it relevant for me?,,4,finetuned
+ADI,"No, I have no expertise.",Mixtral 8*7B,"What is cardiorespiratory fitness, and why does that matter for me?",,5,finetuned
+ADI,"No, I have no expertise.",LLama-3 8B,Is high intensity interval training only for healthy individuals?,,3,base
+ADI,"No, I have no expertise.",LLama-3 8B,What is fitness age and is it relevant for me?,,4,base
+ADI,"No, I have no expertise.",LLama-3 8B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ADI,"No, I have no expertise.",Mistral 7B v2,Is high intensity interval training only for healthy individuals?,,4,finetuned
+ADI,"No, I have no expertise.",Mistral 7B v2,What is fitness age and is it relevant for me?,,4,finetuned
+ADI,"No, I have no expertise.",Mistral 7B v2,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned
+ADI,"No, I have no expertise.",StableBeluga 7B,Is high intensity interval training only for healthy individuals?,,3,finetuned
+ADI,"No, I have no expertise.",StableBeluga 7B,What is fitness age and is it relevant for me?,,4,finetuned
+ADI,"No, I have no expertise.",StableBeluga 7B,"What is cardiorespiratory fitness, and why does that matter for me?",,4,finetuned

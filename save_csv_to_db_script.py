@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Load CSV data
-csv_file_path = 'data/feedback_log.csv'  # Adjusted path for your environment
+csv_file_path = 'data/feedback_log.csv'   #'data/feedback_log.csv'  # Adjusted path for your environment
 df = pd.read_csv(csv_file_path)
 
 # Database connection
